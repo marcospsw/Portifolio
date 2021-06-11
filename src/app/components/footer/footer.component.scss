@@ -1,0 +1,16 @@
+@import "includes.scss";
+
+.footer-container{
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: $gray-800;
+
+	a{
+		font-weight: $font-semi-bold;
+		&:hover{
+			color: $green;
+		}
+	}
+}

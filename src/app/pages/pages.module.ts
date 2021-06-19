@@ -23,8 +23,6 @@ import { AppComponent } from './app/app.component';
 		ComponentsModule,
 		AppRoutingModule,
   ],
-	exports: [
-
-  ]
+	exports: []
 })
 export class PagesModule { }

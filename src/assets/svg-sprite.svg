@@ -1,0 +1,17 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="select-radio" viewBox="0 0 14 14">
+			<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M3.66732 0.333496H10.334C12.1749 0.333496 13.6673 1.82588 13.6673 3.66683V10.3335C13.6673 12.1744 12.1749 13.6668 10.334 13.6668H3.66732C1.82637 13.6668 0.333984 12.1744 0.333984 10.3335V3.66683C0.333984 1.82588 1.82637 0.333496 3.66732 0.333496ZM3.66732 2.00016C2.74684 2.00016 2.00065 2.74635 2.00065 3.66683V10.3335C2.00065 11.254 2.74684 12.0002 3.66732 12.0002H10.334C11.2545 12.0002 12.0007 11.254 12.0007 10.3335V3.66683C12.0007 2.74635 11.2545 2.00016 10.334 2.00016H3.66732Z" fill="#C7C9C7"/>
+			</svg>
+    </symbol>
+		<symbol id="circle-check" viewBox="0 0 48 48">
+			<svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#20db2c">
+				<path d="M0 0h24v24H0z" fill="none"/>
+				<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+			</svg>
+    </symbol>
+	</defs>
+</svg>

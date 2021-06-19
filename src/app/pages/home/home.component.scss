@@ -1,14 +1,28 @@
 @import "includes.scss";
 
 .content {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 75vh;
+	padding: 2rem 0;
 
 	p {
 		font-size: 3rem;
 		font-weight: $font-semi-bold;
 	}
+}
+
+.box {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	background: $gray-800;
+
+	border-radius: 5px;
+	border: 1.5px solid $green;
+	box-shadow: 1.5px 1.5px 5px $green;
+	padding: .5rem 2rem;
 }

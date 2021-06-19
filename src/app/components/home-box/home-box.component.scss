@@ -1,0 +1,62 @@
+@import "includes.scss";
+
+.content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.profile-img {
+	width: 25%;
+	border-radius: 50%;
+}
+
+.profile-text {
+	width: 70%;
+	word-wrap: break-word;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.list {
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	justify-content: space-between;
+	word-wrap: break-word;
+}
+
+.list-item {
+	font-size: 1.5rem;
+	background: $black;
+	padding: .5rem;
+	border-radius: 5px;
+	box-shadow: 1.5px 1.5px 5px $black;
+	margin-bottom: 1rem;
+	width: max-content;
+	padding-right: 1rem;
+	display: flex;
+	align-items: center;
+	transition: padding 0.3s;
+
+	.svg {
+		color: $green;
+		margin-right: .5rem;
+	}
+
+	&:hover{
+		background: $gray-300;
+		cursor: pointer;
+		color: $black;
+		padding-right: 3rem;
+
+		.svg {
+			color: $black;
+		}
+	}
+}
+
+
